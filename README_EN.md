@@ -1,4 +1,4 @@
-**Language:** 🇬🇧 English | [🇪🇸 Español](README.md) 
+**Language:** 🇺🇸 English | [🇪🇸 Español](README.md) 
 
 # Real-Time Flight Parameter Monitoring Simulator
 
