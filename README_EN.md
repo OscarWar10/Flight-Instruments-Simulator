@@ -1,3 +1,5 @@
+**Language:** 🇬🇧 English | [🇪🇸 Español](README.md) 
+
 # Real-Time Flight Parameter Monitoring Simulator
 
 This project was developed as part of my Bachelor´s Degree Final Project in Computer Engineering.
