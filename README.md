@@ -1,4 +1,4 @@
-**Idioma:** 🇪🇸 Español | [🇬🇧 English](README_EN.md)
+**Idioma:** 🇪🇸 Español | [🇺🇸 English](README_EN.md)
 
 # Simulador para Monitorización en Tiempo Real de Parámetros de Vuelo.
 
