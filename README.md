@@ -1,21 +1,22 @@
-# Real-Time Flight Parameter Monitoring Simulator
+**Idioma:** 🇪🇸 Español | [🇬🇧 English](README_EN.md)
 
-This project was developed as part of my Bachelor´s Degree Final Project in Computer Engineering.
+# Simulador para Monitorización en Tiempo Real de Parámetros de Vuelo.
 
-The main objective of the project is to design and implement a real-time flight parameter monitoring simulator that integrates embedded systems, electronic sensors, wireless communication and graphical visualization applications.
+Este proyecto se desarrolló como parte de mi TFG del Grado en Ingeniería de Computadores.
 
-The system consists of a physical aircraft model equipped with an **ESP32 Microcontroller**, an **Inertial Measurement Unit** IMU, a **Potentiometer** and a **Joystick**. Communication between ESP32 and IMU takes place via I²C protocol. The ESP32 collects and processes sensor and control input data, transmitting the information wirelessly via Wi-Fi using the UDP protocol to two independent applications:
+El objetivo principal del proyecto es diseñar e implementar un simulador que permita monitorizar parámetros de vuelo en tiempo real mediante la integración de sistemas embebidos, sensores, comunicación inalámbrica y visualización gráfica mediante aplicaciones.
 
-- **MATLAB/Simulink**: A flight instrumentation interface displaying six primary flight instruments. Airspeed Indicator, Attitude Indicator, Altimeter, Heading Indicator, Vertical Speed Indicator and Turn Coordinator.
-- **Python/PyQt**: A graphical interface inspired by the Airbus ECAM Flight Controls (F/CTL) page, providing real-time visualization of the aircraft control surfaces. Ailerons, Elevators, Rudder and Spoilers.
+El sistema consiste en una maqueta de avión equipada con un **Microcontrolador ESP32**, una **Unidad de Medida Inercial** IMU, un **Potenciómetro** y un **Joystick**. La comunicación entre la ESP32 y la IMU se lleva a cabo mediante el estándar/protocolo I²C. La ESP32 adquiere y procesa los datos de los sensores, transmite la información de forma inalámbrica vía Wi-Fi usando el protocolo UDP a dos aplicaciones independientes:
 
-The aircraft model is manually manipulated to simulate changes in orientation or attitude, while the potentiometer and joystick provide additional inputs for airspeed and control surface movement among others.
+- **MATLAB/Simulink**: Aplicación en la que se muestran los seis instrumentos de vuelo principales (Six Pack). Airspeed Indicator, Attitude Indicator, Altimeter, Heading Indicator, Vertical Speed Indicator and Turn Coordinator.
+- **Python/PyQt**: Interfaz gráfica en inspirada en la página Flight Controls (F/CTL) del sistema ECAM de Airbus, donde se muestran en tiempo real las superficies de control. Ailerons, Elevators, Rudder y Spoilers.
 
-The project demonstrates the integration between hardware and software to acquire, process, transmit and visualize flight-related parameters in real time.
+El propósito de la maqueta es que se realizan movimientos sobre ella para simular cambios en la orientación o la actitud. La manipulación del potenciómetro y el joystick aportan entradas para la velocidad y el movimiento de las superficies de control entre otras cosas.
 
-***Technologies Used:***
-- *Microcontroller: ESP32-WROOM-32 38 pin layout.*
-- *Sensors: Pololu AltIMU-10 v5 (accelerometer, gyroscope, magnetometer and barometer), Potentiometer and PS2 Joystick.*
-- *Programming languages: Arduino, Python and MATLAB.*
-- *Communication Protocols: I²C and UDP.*
-- *Signal processing: Complementary Filtering, Magnetometer Hard-Iron Calibration, Tilt Compensation.*
+El proyecto demuestra la integración entre hardware y software para adquirir, procesar, transmitir y visualizar parámetros de vuelo en tiempo real.
+***Tecnologías Usadas:***
+- *Microcontrolador: ESP32-WROOM-32 38 pines.*
+- *Sensores: Pololu AltIMU-10 v5 (acelerómetro, giroscopio, magnetómetro y barómetro), Potenciómetro y Joystick PS2*
+- *Lenguajes de programación: Arduino, Python y MATLAB.*
+- *Protocolos de comunicación: I²C y UDP.*
+- *Procesamiento de señales: Filtro complementario, Calibración Hard-Iron sobre el magnetómetro, compoensación por inclinación.*
